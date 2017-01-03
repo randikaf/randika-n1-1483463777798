@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: randika-n1
+  host: randika-n1
+  disk_quota: 1024M
+  services:
+  - randika-n1-cloudantNoSQLDB
+  - randika-n1-iotf-service
